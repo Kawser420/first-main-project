@@ -27,7 +27,7 @@ app.get('/', test);
 //global Error Handler
 app.use(globalErrorHandler);
 
-// not Found
+// Not Found
 app.use(notFound);
 
 export default app;
