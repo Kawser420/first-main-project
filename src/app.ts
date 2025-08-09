@@ -10,7 +10,7 @@ import router from './app/routes';
 
 const app: Application = express();
 
-//parsers
+// Parsers
 app.use(express.json());
 app.use(cors());
 
