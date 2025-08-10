@@ -14,7 +14,7 @@ const app: Application = express();
 app.use(express.json());
 app.use(cors());
 
-// application routes
+// Application routes
 app.use('/api/v1', router);
 
 const test = (req: Request, res: Response) => {
